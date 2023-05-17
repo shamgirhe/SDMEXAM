@@ -1,0 +1,91 @@
+Employee Recruitment System - Software Requirements Specification
+  
+
+
+Functional requirements for Employee Recruitment System
+
+
+2.1 Product Perspective
+The Employee Recruitment System will be developed as a standalone web application that will interact with the HR department and potential candidates.
+ It will integrate with existing HR systems, such as employee databases, payroll systems, and email services.
+
+2.2 Product Features
+Job Posting Management:
+HR personnel can create, edit, and remove job postings.
+Job postings should include details such as job title, description, requirements, and application deadline.
+
+Candidate Database:
+The system should provide a database for storing candidate profiles and application information.
+HR personnel can search, filter, and view candidate profiles based on various criteria.
+
+Application Tracking:
+The system should allow HR personnel to track the status of candidate applications.
+Applications can be marked as received, under review, shortlisted, rejected, or hired.
+Interview Scheduling:
+HR personnel should be able to schedule and manage candidate interviews.
+The system should send notifications to candidates regarding interview details.
+Reporting:
+The system should generate reports on job postings, application statistics, and recruitment progress.
+
+2.3 User Classes and Characteristics
+The primary users of the Employee Recruitment System include HR personnel responsible for managing the recruitment process. The system will also be accessed by potential candidates who will submit their applications.
+
+2.4 Operating Environment
+The system will be developed as a web application and will require a modern web browser for accessing its features. The application will be hosted on a web server and will communicate with databases and external systems.
+
+2.5 Design and Implementation Constraints
+The system should be developed using a modern web framework.
+It should ensure data security and privacy.
+The user interface should be intuitive and user-friendly.
+
+3. System Features and Requirements
+3.1 Job Posting Management
+3.1.1 Description
+The system should provide functionality for managing job postings.
+
+3.1.2 Requirements
+HR personnel can create new job postings with details such as title, description, requirements, and deadline.
+HR personnel can edit existing job postings.
+HR personnel can remove job postings.
+Job postings should be categorized by departments or job types.
+3.2 Candidate Database
+3.2.1 Description
+The system should maintain a database for storing candidate profiles and application information.
+
+3.2.2 Requirements
+The system should allow candidates to create profiles with their personal and professional information.
+HR personnel can search and filter candidate profiles based on various criteria.
+HR personnel can view detailed
+candidate profiles.
+
+
+3.3 Application Tracking
+3.3.1 Description
+The system should allow HR personnel to track the status of candidate applications.
+
+3.3.2 Requirements
+HR personnel can mark applications as received, under review, shortlisted, rejected, or hired.
+HR personnel can add notes and comments to application records.
+HR personnel can update the application status throughout the recruitment process.
+
+3.4 Interview Scheduling
+3.4.1 Description
+The system should enable HR personnel to schedule and manage candidate interviews.
+
+3.4.2 Requirements
+HR personnel can schedule interviews and assign interviewers.
+The system should send interview notifications to candidates with details such as date, time, and location.
+HR personnel can view and manage the interview schedule.
+
+3.5 Reporting
+3.5.1 Description
+The system should generate reports on job postings, application statistics, and recruitment progress.
+
+3.5.2 Requirements
+The system should provide pre-defined report templates.
+HR personnel can generate reports based on selected criteria, such as date range, department, or job type.
+4. Non-functional Requirements
+
+4.1 Performance
+The system should support a large number of concurrent users.
+Response times for critical operations should be fast to ensure a seamless user experience.
